@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar has-background-grey-lighter"
+        className="navbar"
         role="navigation"
         aria-label="main-navigation"
       >
