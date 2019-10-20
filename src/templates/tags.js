@@ -54,7 +54,7 @@ class TagRoute extends React.Component {
     const tag = this.props.pageContext.tag
     const title = this.props.data.site.siteMetadata.title
     const totalCount = this.props.data.allMarkdownRemark.totalCount
-    const tagHeader = `「${tag}」の記事は${totalCount}件あります`
+    const tagHeader = `「 ${tag} 」${totalCount}件`
 
     return (
       <Layout>
@@ -67,7 +67,7 @@ class TagRoute extends React.Component {
                 style={{ marginBottom: '6rem' }}
               >
                 <h1 className="title is-size-3 is-bold-light">{tagHeader}</h1>
-                <ul className="taglist">{postLinks}</ul>
+                <ul className="taglist is-marginless">{postLinks}</ul>
                 <p>
                   <Link to="/tags/">Browse all tags</Link>
                 </p>

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS template edited by ShinKano',
+    title: 'お金がもらえる/戻ってくるかもしれない制度まとめ',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      '申請することでお金がもらえたり、戻ってきたりする手続きや制度をまとめています。',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
