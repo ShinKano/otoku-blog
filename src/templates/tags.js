@@ -33,8 +33,8 @@ class TagRoute extends React.Component {
               >
                 {post.node.frontmatter.title}
               </Link>
-              <span> &bull; </span>
-              <span className="is-size-6 is-block">
+
+              <span className="is-size-7 is-block">
                 最終更新：{post.node.frontmatter.date}
               </span>
             </p>

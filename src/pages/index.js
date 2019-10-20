@@ -12,7 +12,7 @@ const Tetete = () => (
         >
             <div className="full-height align-items-center">
                     <h1 className="has-text-primary">
-                        お金が貰える・<br className="mobile-br" />戻ってくるかも？<br />申請したい手続きや制度まとめ
+                        お金がもらえる・<br className="mobile-br" />もどってくるかも？<br />申請したい手続きや制度まとめ
                     </h1>
             </div>
         </section>
@@ -25,13 +25,16 @@ const Tetete = () => (
             }}
         >
             <div className="full-height align-items-center flex-flow-column">
+                <span className="icon">
+                    <i className="fas fa-home"></i>
+                </span>
                     <h2 className="has-text-primary">
                         病気・ケガ
                     </h2>
-                    <h3>もらえる</h3>
-                    <Link to='/tags/病気・ケガ-もどってくる/'>
-                        <h3>もどってくる</h3>
+                    <Link className="button is-link" to='/tags/病気・ケガ/'>
+                        一覧をみる
                     </Link>
+
             </div>
         </section>
 
@@ -46,8 +49,9 @@ const Tetete = () => (
                     <h2 className="has-text-primary">
                         結婚
                     </h2>
-                    <h3>もらえる</h3>
-                    <h3>もどってくる</h3>
+                    <Link className="button is-link" to='/tags/病気・ケガ/'>
+                        一覧をみる
+                    </Link>
             </div>
         </section>
 
@@ -62,8 +66,9 @@ const Tetete = () => (
                     <h2 className="has-text-primary">
                         出産
                     </h2>
-                    <h3>もらえる</h3>
-                    <h3>もどってくる</h3>
+                    <Link className="button is-link" to='/tags/病気・ケガ/'>
+                        一覧をみる
+                    </Link>
             </div>
         </section>
         
