@@ -24,7 +24,7 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link to="/" className="navbar-item">
-                        Home
+                        ホーム
                       </Link>
                     </li>
                     
@@ -35,7 +35,7 @@ const Footer = class extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Admin
+                        管理者
                       </a>
                     </li>
                   </ul>
@@ -46,12 +46,12 @@ const Footer = class extends React.Component {
                   <ul className="menu-list">
                     <li>
                       <Link className="navbar-item" to="/blog">
-                        Latest Stories
+                        全ての記事
                       </Link>
                     </li>
                     <li>
                       <Link className="navbar-item" to="/contact">
-                        Contact
+                        お問い合わせ
                       </Link>
                     </li>
                   </ul>

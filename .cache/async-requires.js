@@ -11,7 +11,6 @@ exports.components = {
   "component---src-pages-contact-index-js": () => import("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/contact/index.js" /* webpackChunkName: "component---src-pages-contact-index-js" */),
   "component---src-pages-contact-thanks-js": () => import("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/contact/thanks.js" /* webpackChunkName: "component---src-pages-contact-thanks-js" */),
   "component---src-pages-index-js": () => import("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-tags-index-js": () => import("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/tags/index.js" /* webpackChunkName: "component---src-pages-tags-index-js" */),
-  "component---src-pages-tetete-js": () => import("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/tetete.js" /* webpackChunkName: "component---src-pages-tetete-js" */)
+  "component---src-pages-tags-index-js": () => import("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/tags/index.js" /* webpackChunkName: "component---src-pages-tags-index-js" */)
 }
 

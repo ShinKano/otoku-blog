@@ -14,7 +14,6 @@ exports.components = {
   "component---src-pages-contact-index-js": hot(preferDefault(require("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/contact/index.js"))),
   "component---src-pages-contact-thanks-js": hot(preferDefault(require("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/contact/thanks.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/index.js"))),
-  "component---src-pages-tags-index-js": hot(preferDefault(require("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/tags/index.js"))),
-  "component---src-pages-tetete-js": hot(preferDefault(require("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/tetete.js")))
+  "component---src-pages-tags-index-js": hot(preferDefault(require("/Users/Shinnosuke/Documents/b5react/otoku/src/pages/tags/index.js")))
 }
 

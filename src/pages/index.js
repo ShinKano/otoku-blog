@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import { Link } from 'gatsby'
 
 const Tetete = () => (
     <Layout>
@@ -28,7 +29,9 @@ const Tetete = () => (
                         病気・ケガ
                     </h2>
                     <h3>もらえる</h3>
-                    <h3>もどってくる</h3>
+                    <Link to='/tags/病気・ケガ-もどってくる/'>
+                        <h3>もどってくる</h3>
+                    </Link>
             </div>
         </section>
 

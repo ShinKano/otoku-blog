@@ -37,17 +37,18 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
+                    <span className="is-size-6 is-block">
+                      最終更新：{post.frontmatter.date}
                     </span>
                   </p>
+
                 </header>
                 <p>
                   {post.frontmatter.description}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                  <Link className="button has-text-primary" to={post.fields.slug}>
+                    詳細を読む →
                   </Link>
                 </p>
               </article>
