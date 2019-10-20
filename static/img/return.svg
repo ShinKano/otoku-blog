@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <clipPath id="clip-custom_1">
+      <rect width="400" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="custom_1" data-name="custom – 1" clip-path="url(#clip-custom_1)">
+    <rect width="400" height="300" fill="#65d261"/>
+    <text id="もどってくる" transform="translate(200 171)" fill="#fff" font-size="54" font-family="HiraginoSans-W6, Hiragino Sans"><tspan x="-158.49" y="0">もどってくる</tspan></text>
+  </g>
+</svg>
