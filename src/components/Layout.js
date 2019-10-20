@@ -47,6 +47,8 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+        <meta name="google-site-verification" content="AtBXV62-NYJ_gWHW-q9hBGDC0iYSt3vkvl2r8lfcTac" />
+
       </Helmet>
       <Navbar />
       <div>{children}</div>
