@@ -5,12 +5,16 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div>
       <Helmet>
+        <OutboundLink href="https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/">
+            Visit the Google Analytics plugin page!
+        </OutboundLink>
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
