@@ -9,18 +9,61 @@ const Tetete = () => (
                 height: '90vh',
             }}
         >
-            
-                <div className="full-height align-items-center">
-                    
-                        <h1 className="has-text-primary">
-                            何かあったとき<br className="mobile-br" />行政に申請すること
-                        </h1>
-                </div>
-                
-
-           
+            <div className="full-height align-items-center">
+                    <h1 className="has-text-primary">
+                        お金が貰える・<br className="mobile-br" />戻ってくるかも？<br />申請したい手続きや制度まとめ
+                    </h1>
+            </div>
         </section>
 
+
+        <section 
+            className="main content"
+            style={{
+
+            }}
+        >
+            <div className="full-height align-items-center flex-flow-column">
+                    <h2 className="has-text-primary">
+                        病気・ケガ
+                    </h2>
+                    <h3>もらえる</h3>
+                    <h3>もどってくる</h3>
+            </div>
+        </section>
+
+
+        <section 
+            className="main content background-color-main"
+            style={{
+
+            }}
+        >
+            <div className="full-height align-items-center flex-flow-column">
+                    <h2 className="has-text-primary">
+                        結婚
+                    </h2>
+                    <h3>もらえる</h3>
+                    <h3>もどってくる</h3>
+            </div>
+        </section>
+
+
+        <section 
+            className="main content"
+            style={{
+
+            }}
+        >
+            <div className="full-height align-items-center flex-flow-column">
+                    <h2 className="has-text-primary">
+                        出産
+                    </h2>
+                    <h3>もらえる</h3>
+                    <h3>もどってくる</h3>
+            </div>
+        </section>
+        
     </Layout>
 )
 
